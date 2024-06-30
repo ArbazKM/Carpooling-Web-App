@@ -38,7 +38,7 @@ const StyledLink = styled(Link)`
     text-decoration: underline;
   }
 `;
-
+//Login page functions created
 function Login() {
   const history = useHistory();
   const [email, setEmail] = useState('');
