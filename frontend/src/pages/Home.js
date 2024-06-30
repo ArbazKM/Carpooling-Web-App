@@ -56,7 +56,7 @@ const Button = styled(Link)`
     background-color: #0056b3;
   }
 `;
-
+//Home page functions created 
 function Home() {
   return (
     <HomeContainer>
