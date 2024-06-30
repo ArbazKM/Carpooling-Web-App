@@ -3,7 +3,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import { useLocation } from 'react-router-dom';
-
+//RideDetails page functions created
 function RideDetails() {
   const location = useLocation();
   const ride = location.state.ride;
