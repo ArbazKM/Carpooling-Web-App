@@ -101,7 +101,7 @@ function Dashboard() {
     setViewAllFeedbacks(false); // Reset view all feedbacks state
     setError(null); // Reset error state
   };
-
+//Admin Credentials section 
   const handleAdminLogin = () => {
     // Authenticate admin credentials
     if (username === 'admin' && password === 'admin123') {
@@ -134,7 +134,7 @@ function Dashboard() {
       setError('Error fetching feedback count. Please try again.'); // Set error state
     }
   };
-
+//Ride Feedback section 
   const feedbackTypes = [
 
     { comments: 'Great experience! Will use again.', rating: 5 },
