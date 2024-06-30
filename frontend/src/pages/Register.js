@@ -63,7 +63,7 @@ const StyledButton = styled.button`
 const StyledHeading = styled.h2`
   color: #ffd700; /* Deep Yellow */
 `;
-
+//Register page functions created
 export function Register() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
