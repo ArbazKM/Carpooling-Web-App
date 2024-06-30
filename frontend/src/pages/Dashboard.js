@@ -73,7 +73,7 @@ const Button = styled.button`
   padding: 10px 20px;
   cursor: pointer;
 `;
-
+//Dashboard functions created 
 function Dashboard() {
   const [isAdminMode, setIsAdminMode] = useState(false);
   const [isAdminLoggedIn, setIsAdminLoggedIn] = useState(false);
