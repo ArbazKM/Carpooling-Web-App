@@ -142,7 +142,7 @@ const ConfirmButton = styled.button`
   border-radius: 5px;
   cursor: pointer;
 `;
-
+//RideSearch fuctions created 
 const RideSearch = () => {
   const history = useHistory();
   const [origin, setOrigin] = useState('');
