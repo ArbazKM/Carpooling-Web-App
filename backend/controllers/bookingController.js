@@ -10,7 +10,7 @@ const createBooking = async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 };
-
+//booking list 
 const listBookings = async (req, res) => {
   try {
     const bookingCount = bookings.length;
