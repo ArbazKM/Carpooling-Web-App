@@ -1,5 +1,5 @@
 const feedbacks = [];
-
+//Submit feedback function created 
 const submitFeedback = async (req, res) => {
   const { comments, rating } = req.body;
   try {
