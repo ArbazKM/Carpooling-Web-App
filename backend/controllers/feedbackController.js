@@ -18,7 +18,7 @@ const getFeedback = async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 };
-
+//Get feedback function created 
 const getFeedbackCount = async (req, res) => {
   try {
     res.json({ feedbackCount: feedbacks.length });
