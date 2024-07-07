@@ -1,5 +1,5 @@
 let bookings = [];
-
+//creating booking
 const createBooking = async (req, res) => {
   const { rideId, userId } = req.body;
   try {
