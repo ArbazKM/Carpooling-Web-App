@@ -12,7 +12,7 @@ import { Register } from './pages/Register';
 import CustomNavbar from './Navbar';
 import Footer from './Footer';
 import GlobalStyle from './GlobalStyle'; 
-
+//function created
 function App() {
   return (
     <Router>
