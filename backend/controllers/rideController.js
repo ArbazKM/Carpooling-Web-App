@@ -1,5 +1,5 @@
 let rides = [];
-
+//create ride function 
 const create = async (req, res) => {
   const { origin, destination, date, time, seats } = req.body;
   const userId = req.user.userId;
