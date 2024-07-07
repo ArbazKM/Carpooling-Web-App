@@ -7,3 +7,4 @@ router.post('/', authMiddleware, createBooking);
 router.get('/', authMiddleware, listBookings);
 
 module.exports = router;
+//booking routes created 
